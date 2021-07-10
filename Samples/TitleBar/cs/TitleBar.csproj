@@ -94,15 +94,15 @@
       <Link>App.xaml.cs</Link>
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CustomTitleBar.xaml.cs">
-      <DependentUpon>CustomTitleBar.xaml</DependentUpon>
-    </Compile>
     <Compile Include="$(SharedContentDir)\cs\MainPage.xaml.cs">
       <Link>MainPage.xaml.cs</Link>
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(SharedContentDir)\cs\AssemblyInfo.cs">
       <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="CustomTitleBar.xaml.cs">
+      <DependentUpon>CustomTitleBar.xaml</DependentUpon>
     </Compile>
     <Compile Include="SampleConfiguration.cs" />
     <Compile Include="Scenario1_Colors.xaml.cs">
